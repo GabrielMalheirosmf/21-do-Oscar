@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'lastica';
+    src: url('fontes/lastica.ttf') format('truetype');
+  }
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'lastica';
+    background-color: #a6a6a6;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.borda{
+    border: 5px solid #000000;
+    width: 60%;
+    height: 70vh;
+}
+.titulo{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 60px;
+}
+.subtitulo{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+.playersstyle{
+    margin-top: 50px;
+display: flex;
+justify-content: space-evenly;
+}
+.rrstyle{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 120px;
+}
+.botao{
+cursor: pointer;
+border: 3px solid black ;
+border-radius:16px;
+color: black;
+padding: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+}
