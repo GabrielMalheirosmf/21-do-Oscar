@@ -43,16 +43,41 @@ justify-content: space-evenly;
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 120px;
+    margin-top: 80px;
 }
-.botao{
+.botao,.fa.fa-trophy,.submite{
 cursor: pointer;
 border: 3px solid black ;
 border-radius:16px;
 color: black;
-padding: 10px;
+padding: 8px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 25px;
 }
+.fa.fa-trophy {
+    font-size: 60px;
+    margin-top: -40px ;
+}
+.nicksingleplayer{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;  
+}
+.nickmultiplayer{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;  
+}
+.titulo2{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 40px; 
+}
+.subtitulos{
+    text-aling: left;
+    font-size: 30px;
+    margin-top: 10px;
+}
+  
