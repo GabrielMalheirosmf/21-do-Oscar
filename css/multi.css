@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a6a6a6;
+}
+body{
+    margin-top: 50px;
+    margin-left:190px ;
+    border: 3px solid black;
+    width: 60em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+}
+#botao{
+    padding: 5px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 40px;
+}
