@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/nome2.css">
         <title>Document</title>
 </head>
@@ -19,12 +18,12 @@
         <main>
                 <section class="principal">
                         <p>Player 1 :</p>
-                        <input type="text">
+                        <input type="text" id="input1">
                         <p>Player 2 :</p>
                 </section>
                 <section class="secundaria">
                         <input id="input" type="text">
-                        <a href="Multiplayer.html"><button id="submite">Enviar</button></a>
+                        <a href="Multiplayer.html"><button onclick="gravar()" id="submite">Enviar</button></a>
                 </section>
         </main>
         <footer>
@@ -33,5 +32,5 @@
         </footer>
 </body>
 <script src="scripts/nome.js"></script>
-
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </html>

@@ -38,9 +38,8 @@ footer{
 div{
     width: 200px;
     height: 200px;
-    
 }
-button{
+.input{
     width: 50px;
     height: 50px;
     margin: 5px;
@@ -51,9 +50,9 @@ button{
 }
 h3{
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
 }
-input:hover{
+.input:hover{
     color: red;
     background-color: white;
 }

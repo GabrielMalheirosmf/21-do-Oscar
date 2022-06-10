@@ -14,37 +14,37 @@ body{
     flex-direction: column;
 }
 h1{
+    text-align: center;
     font-size: 60px;
     margin-top: 60px;
-    text-align: center;
 }
-p{
-    font-size: 30px;
-    margin-top: 90px;
-    text-align: center;
+table{
+
+    display: flexbox;
+    justify-content: center;     
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;    
+    
+}
+td, th{
+    border: 0.4px solid black;
+    border-radius: 15px;
+    height: 40px; 
+    width: 180px;      
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 40px 20px 40px;
 }
 button{
     padding: 5px;
-    margin: 50px 40px 40px 40px;
     width: auto;
     height: auto;
     border-radius: 20px;
     cursor: pointer;
 }
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.botao{
-    font-size: 30px;
-}
 #botao{
     font-size: 60px;
 }
-
